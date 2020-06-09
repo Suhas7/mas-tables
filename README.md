@@ -23,7 +23,7 @@ This emulates how well an individual can focus on another at any given angle and
 
 The depth of field also decays according to:
 
-<img src="https://latex.codecogs.com/gif.latex?d_f = max(2,5-dist) /> 
+<img src="https://latex.codecogs.com/gif.latex?d_f = max(2,5-dist)" /> 
 
 
 
