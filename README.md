@@ -19,12 +19,13 @@ Each person has a viewcone that describes how well they can engage/interact with
 
 This emulates how well an individual can focus on another at any given angle and position. The density of retinal cells follows:
 
-[retinal_density.jpg]
+<img src="retinal_density.jpg"/>
 
-The depth of field also decays.
+The depth of field also decays according to:
+
+<img src="https://latex.codecogs.com/gif.latex?d_f = max(2,5-dist) /> 
 
 
 
 In addition, the viewcone decays by factor lambda as an individual rotates left or right by gamma degrees according to the following equation:
-
-\lambda = (90/(1-\alpha)-abs(\gamma))/90/(1-\alpha)
+<img src="https://latex.codecogs.com/gif.latex?\lambda = (90/(1-\alpha)-abs(\gamma))/90/(1-\alpha)" /> 
